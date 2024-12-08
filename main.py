@@ -10,7 +10,7 @@ print("you chose:", user_choice)
 print("computer chose:",computer_choice)
 
 if user_choice == computer_choice:
-    print("It's  a title")
+    print("It's  a tie")
 elif user_choice == "Rock" and computer_choice == "scissors":
     print("Rock smashes scissors!you win!")
 elif user_choice == "paper" and computer_choice == "Rock":
